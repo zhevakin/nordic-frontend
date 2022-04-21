@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <ul class="tabs" id="tabs">
+      <li class="tab-item">
+        <button class="tab-button active" id="home" type="button">Home</button>
+      </li>
+      <li class="tab-item">
+        <button class="tab-button" id="profile" type="button">Profile</button>
+      </li>
+      <li class="tab-item" role="presentation">
+        <button class="tab-button" id="contact" type="button">Contact</button>
+      </li>
+    </ul>
+
+    <div>
+      <div class="tab-content active" id="home-content">Home content</div>
+      <div class="tab-content" id="profile-content">Profile content</div>
+      <div class="tab-content" id="contact-content">Contact content</div>
+    </div>
+  </body>
+</html>
