@@ -27,20 +27,20 @@
 }
 
 .slider-prev {
-  border: 1px solid #ccc;
-  border-radius: 50%;
+  border: none;
+  background: url('images/arrow.svg') no-repeat center;
   position: absolute;
   height: 30px;
   left: 10px;
   top: 50%;
   width: 30px;
   text-align: center;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(180deg);
 }
 
 .slider-next {
-  border: 1px solid #ccc;
-  border-radius: 50%;
+  border: none;
+  background: url('images/arrow.svg') no-repeat center;
   position: absolute;
   right: 10px;
   height: 30px;
